@@ -37,6 +37,10 @@ const Signin = () => {
         <h2 className="text-2xl font-bold mb-6 text-center text-purple-700 dark:text-white">
           Welcome Back
         </h2>
+        <p className="mt-4 text-sm text-center text-gray-600 dark:text-gray-300">
+          Email : test@gmail.com <br></br>
+          password : 1234<br></br>
+        </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="email"
